@@ -23,6 +23,7 @@ a:hover{
 }
 img:hover{
     transform: scale(2);
+    transform: rotate(25deg);
 }
 img{
     border-radius: 10%;
