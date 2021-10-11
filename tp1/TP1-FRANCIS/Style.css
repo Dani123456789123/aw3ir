@@ -1,0 +1,52 @@
+.center{
+    text-align: center;
+    font-size: 40px;
+}
+td{
+    font-size: 20px;
+}
+p{
+    font-size: 20px;
+}
+
+tr:nth-child(odd) {background-color: rgba(0, 128, 0, 0.233);}
+tr:hover {background-color: greenyellow;}
+
+a:link{
+    color: red;
+}
+a:visited{
+    color: rgb(0, 19, 128);
+}
+a:hover{
+    color: orange;
+}
+img:hover{
+    transform: scale(2);
+}
+img{
+    border-radius: 10%;
+    height: 50px;
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 300px) {
+    body {
+        background-color: lightblue;
+    }
+}
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightpink;
+    }
+}
+@media only screen and (max-width: 900px) {
+    body {
+        background-color: lightsalmon;
+    }
+}
+@media only screen and (min-width: 900px) {
+    body {
+        background-color: #bee74daf;
+    }
+}
