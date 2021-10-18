@@ -1,0 +1,30 @@
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+}
+.msgerr{
+    font-size: 20px;
+    background-color: pink;
+    padding: 5px;
+    border-width: 1px;
+    border-color: black;
+    visibility: hidden;
+}
+.msgval{
+    font-size: 20px;
+    background-color: green;
+    padding: 5px;
+    color: white;
+    visibility: hidden;
+}
+body{
+    background-color: rgba(128, 128, 128, 0.623);
+    width: 800px;
+    margin:0 auto;
+}
+
+.button{
+    width: 50%;
+    height: 35px;
+}
