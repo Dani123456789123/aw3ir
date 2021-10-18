@@ -10,6 +10,7 @@ label {
     border-width: 1px;
     border-color: black;
     visibility: hidden;
+    width: 50%;
 }
 .msgval{
     font-size: 20px;
@@ -17,6 +18,7 @@ label {
     padding: 5px;
     color: white;
     visibility: hidden;
+    width: 50%;
 }
 body{
     background-color: rgba(128, 128, 128, 0.623);
